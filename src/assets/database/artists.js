@@ -1,9 +1,10 @@
-const artistArray = [
+export const artistArray = [
   {
     id: 1,
     image: "https://i.scdn.co/image/ab6761610000e5ebf7a1090ad3a35a34fc0ecb57",
     name: "aespa",
-    banner: "https://i.pinimg.com/736x/ef/12/a6/ef12a61f99bafce84c2c8a6ca2e64685.jpg",
+    banner:
+      "https://i.pinimg.com/736x/ef/12/a6/ef12a61f99bafce84c2c8a6ca2e64685.jpg",
   },
   {
     id: 2,

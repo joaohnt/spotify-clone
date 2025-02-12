@@ -1,14 +1,26 @@
-import React from 'react'
-import Header from './compenents/Header'
-import Main from './compenents/Main';
+import React from "react";
+import Header from "./compenents/Header";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Home from "./pages/Home";
+import Artists from "./pages/Artists";
+import Artist from "./pages/Artist";
+import Song from "./pages/Song";
+import Songs from "./pages/Songs";
 
 const App = () => {
   return (
-  <>
-    <Header/>
-    <Main/>
-  </>
-  )
-}
+    <BrowserRouter>
+      <Header />
 
-export default App
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/artists" element={<Artists />} />
+        <Route path="/artist/:id" element={<Artist />} />
+        <Route path="/songs" element={<Songs />} />
+        <Route path="/song/:id" element={<Song />} />
+      </Routes>
+    </BrowserRouter>
+  );
+};
+
+export default App;
