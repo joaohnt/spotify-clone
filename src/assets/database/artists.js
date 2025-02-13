@@ -4,14 +4,14 @@ export const artistArray = [
     image: "https://i.scdn.co/image/ab6761610000e5ebf7a1090ad3a35a34fc0ecb57",
     name: "aespa",
     banner:
-      "https://i.pinimg.com/736x/ef/12/a6/ef12a61f99bafce84c2c8a6ca2e64685.jpg",
+      "https://i0.wp.com/popasiaticojpg.com/wp-content/uploads/2024/11/aespa-whiplash-the-5th-mini-album.png?fit=810%2C400&ssl=1",
   },
   {
     id: 2,
-    image: "https://i.scdn.co/image/ab6761610000517499c26e8fb91634b00764bbb9",
-    name: "MC Tuto",
-    banner:
-      "https://www.hashtagtreinamentos.com/wp-content/uploads/2025/02/mc-tuto.png",
+    image:
+      "https://is1-ssl.mzstatic.com/image/thumb/Features112/v4/6e/3f/94/6e3f946b-7539-dc88-e556-674482d8d557/mzl.nlqqapzi.jpg/486x486bb.png",
+    name: "Playboi Carti",
+    banner: "https://i.ytimg.com/vi/EwdsnGfrd-k/maxresdefault.jpg",
   },
   {
     id: 3,
