@@ -1,5 +1,27 @@
 {
   "dependencies": {
     "mongodb": "^6.13.0"
-  }
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
+  },
+  "name": "spotify",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm install --prefix back-end && npm install --prefix front-end && npm run build --prefix front-end",
+    "start": "npm run start --prefix back-end"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joaohnt/spotify-clone.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joaohnt/spotify-clone/issues"
+  },
+  "homepage": "https://github.com/joaohnt/spotify-clone#readme",
+  "description": ""
 }
